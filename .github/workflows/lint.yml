@@ -1,0 +1,21 @@
+name: Run lint
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v1
+      - name: setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+      - name: install dependencies
+        run: npm install
+      - name: lint
+        run: npm run lint
+      - name: test
+        run: npm run test
