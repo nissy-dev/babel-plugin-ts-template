@@ -3,7 +3,8 @@ This is template repository for babel plugin development with TypeScript.
 1. Create repository based on this template
 2. Change plugin name from babel-plugin-ts-template to your own
 3. Modify TODO comments
-4. Add NPM_TOKEN to repository secrets
+4. Set NPM_TOKEN to repository secrets
+5. Create new labels (`breaking changes`, `bug fix`, `new features`) for automate release notes
 
 ---
 
