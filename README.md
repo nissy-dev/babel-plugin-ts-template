@@ -30,7 +30,7 @@ const a = "test";
 
 ## Install
 
-```bash
+```sh
 $ npm install --save-dev babel-plugin-ts-template
 ```
 
@@ -65,7 +65,7 @@ See also [Babel Plugin Handbook](https://github.com/jamiebuilds/babel-handbook/b
 
 ## Setup
 
-```
+```sh
 $ git clone git@github.com:nissy-dev/babel-plugin-ts-template.git
 $ cd babel-plugin-ts-template
 $ npm ci
@@ -73,7 +73,7 @@ $ npm ci
 
 ## Development Tools
 
-```
+```sh
 // run tsc, eslint, prettier
 $ npm run lint
 
