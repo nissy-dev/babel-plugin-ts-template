@@ -34,7 +34,7 @@
     "fix:prettier": "npm run lint:prettier -- --write"
   },
   "dependencies": {
-    "@babel/core": "^7.16.0",
+    "@babel/core": "^7.16.7",
     "@babel/types": "^7.16.7"
   },
   "devDependencies": {
