@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.16.0",
-    "@babel/types": "^7.16.0"
+    "@babel/types": "^7.16.7"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
